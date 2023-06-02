@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #374259;
+  
+  overflow-y: auto;
+  
+}
+
+.homepage {
+  min-width: 100%;
+  min-height: 100%;
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #374259;
+  padding: 2rem;
+  margin-top: auto /* Add top margin for spacing */
+}
+
+.homepage_header {
+  margin: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 20%;
+  min-height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.homepage_header > .button {
+  background: #6C63FF;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 0;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homepage_header > .button:hover {
+  background-color: #584EE6;
+}
+
+.homepage_header > input {
+  border: 1px solid #CCCCCC;
+  outline: none;
+  color: #333333;
+  margin: 0.5rem 0;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  font-size: 0.9rem;
+  border-radius: 8px;
+}
+
+.react-datetime-picker {
+  width: 100%;
+}
+
+.homepage_body {
+  width: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.reminder_card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin: 1.5rem;
+  padding: 1rem;
+  max-width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reminder_card > h2 {
+  margin-bottom: 0.5rem;
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.reminder_card > p {
+  color: #777777;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.reminder_card > .button {
+  background: #6C63FF;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: bold;
+  width: inherit;
+  text-align: center;
+  padding: 0.8rem 0;
+  margin: 0.5rem;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reminder_card > .button:hover {
+  background-color: #584EE6;
+}
